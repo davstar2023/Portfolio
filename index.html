@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" href="icon-192x192.png">
+    <meta name="theme-color" content="#333">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" defer></script>
+</head>
+<body>
+    <header class="bg-dark text-white py-3">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a class="navbar-brand" href="#home">My Portfolio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="home.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="projects.html">Works/Projects</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="text-center py-5" style="background-image: url('mountain.jpg'); background-size: cover; background-position: center; position: relative; height: 100vh;">
+            <!-- Overlay -->
+            <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5);"></div>
+            
+            <!-- Text Content -->
+            <div class="container position-relative" style="z-index: 1;">
+                <h2 class="text-white">Welcome to My Portfolio</h2>
+                <p class="lead text-white">Discover my projects and learn more about me.</p>
+                <p class="text-white">I’m thrilled to have you here, exploring the creative work that I’ve dedicated myself to over the years. As a passionate web developer, I strive to combine innovation and functionality to create exceptional digital experiences. Whether you're here to view my latest projects, learn about my journey, or get in touch for a potential collaboration, this portfolio is a reflection of my continuous effort to grow and push boundaries in the world of web development. I believe in the power of design to tell stories, solve problems, and make an impact, and this site is just a small glimpse of what I can create.</p>
+                <p class="text-white">In the following sections, you’ll discover a variety of projects I’ve worked on, each with its own unique challenges and solutions. From responsive websites to complex web applications, I take pride in delivering high-quality, user-friendly digital solutions. Along the way, I’ve learned the value of innovation, persistence, and adaptability. I’m always excited to embrace new technologies and techniques to enhance my skills and bring fresh ideas to life. Feel free to browse through my work, and don’t hesitate to reach out if you’d like to connect, collaborate, or discuss any project ideas!</p>
+            </div>
+        </section>
+        
+        <section id="about" class="py-5">
+            <div class="container d-flex flex-wrap align-items-center">
+                <div class="col-md-4 text-center mb-4 mb-md-0">
+                    <img src="your-picture.jpeg" alt="My Picture" class="img-fluid" style="max-width: 150px;">
+                </div>
+                <div class="col-md-8">
+                    <h2>About Me</h2>
+                    <p>
+                        Hi, I'm a passionate web developer with a love for creating elegant and user-friendly web experiences. 
+                        With a strong foundation in HTML, CSS, and JavaScript, I strive to bring ideas to life through code. 
+                        I enjoy solving complex problems and constantly learning new technologies to improve my craft. 
+                        When I'm not coding, you can find me exploring new books or experimenting with creative projects.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="text-center py-5 bg-secondary text-white">
+            <div class="container">
+                <h2>My Works/Projects</h2>
+                <p class="lead">Here you can explore my latest projects and contributions.</p>
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <a href="works.html">
+                            <div class="card h-100">
+                                <img src="wallpapersden.com_programming-8k-cool_600x600.jpg" class="card-img-top" alt="Project 1">
+                                <div class="card-body">
+                                    <h5 class="card-title">Project 1</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="works.html">
+                            <div class="card h-100">
+                                <img src="wallpapersden.com_stargazing-hd-pixel-art_600x600.jpg" class="card-img-top" alt="Project 2">
+                                <div class="card-body">
+                                    <h5 class="card-title">Project 2</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="works.html">
+                            <div class="card h-100">
+                                <img src="coach_two.jpg" class="card-img-top" alt="Project 3">
+                                <div class="card-body">
+                                    <h5 class="card-title">AI Coach</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="works.html">
+                            <div class="card h-100">
+                                <img src="ww.jpg" class="card-img-top" alt="Project 4">
+                                <div class="card-body">
+                                    <h5 class="card-title">Project 4</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="works.html">
+                            <div class="card h-100">
+                                <img src="game.png" class="card-img-top" alt="Project 5">
+                                <div class="card-body">
+                                    <h5 class="card-title">Project 5</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="works.html">
+                            <div class="card h-100">
+                                <img src="cv.jpg" class="card-img-top" alt="Project 6">
+                                <div class="card-body">
+                                    <h5 class="card-title">Project 6</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>        
+    </main>
+
+    <footer class="bg-dark text-white py-3">
+        <div class="container text-center">
+            <p>&copy; 2025 My Portfolio | <a href="#home" class="text-white text-decoration-underline">Back to Top</a></p>
+        </div>
+    </footer>
+
+    <script>
+        // Register service worker
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/service-worker.js')
+                    .then(registration => {
+                        console.log('Service Worker registered with scope:', registration.scope);
+                    })
+                    .catch(error => {
+                        console.log('Service Worker registration failed:', error);
+                    });
+            });
+        }
+    </script>
+</body>
+</html>
