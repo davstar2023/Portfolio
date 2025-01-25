@@ -11,7 +11,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" defer></script>
 </head>
 <body>
-    <header class="text-white py-3"  style="background-color: black;">
+    <header class="text-white py-3">
         <div class="container">
             <nav class="navbar navbar-expand-lg" style="background-color: black;">
                 <a class="navbar-brand" href="index.html">My Portfolio</a>
@@ -30,7 +30,7 @@
     </header>
 
     <main>
-        <section id="home" class="text-center py-5" style=background-color:black>
+        <section id="home" class="text-center py-5" style="background-color:black;">
             <!-- Overlay -->
             <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5);"></div>
             
@@ -43,7 +43,7 @@
             </div>
         </section>
         
-        <section id="about" class="py-5">
+        <section id="about" class="py-5" style="background-color: white;">
             <div class="container d-flex flex-wrap align-items-center">
                 <div class="col-md-4 text-center mb-4 mb-md-0">
                     <img src="your-picture.jpeg" alt="My Picture" class="img-fluid" style="max-width: 150px;">
@@ -55,7 +55,10 @@
                         With a strong foundation in HTML, CSS, and JavaScript, I strive to bring ideas to life through code. 
                         I enjoy solving complex problems and constantly learning new technologies to improve my craft. 
                         When I'm not coding, you can find me exploring new books or experimenting with creative projects.
-                        <a class="btn btn-primary" href="#" role="button">Click for more information</a>
+                        <hr>
+                        <div class="text-center">
+                            <a class="btn btn-primary w-100" href="about.html" role="button">Click for more information</a>
+                        </div>
                     </p>
                 </div>
             </div>
@@ -66,94 +69,150 @@
                 <h2>My Works/Projects</h2>
                 <p class="lead">Here you can explore my latest projects and contributions.</p>
                 <div class="row g-4">
-                    <div class="col-md-4">
-                        <a href="works.html">
-                            <div class="card h-100">
-                                <img src="wallpapersden.com_programming-8k-cool_600x600.jpg" class="card-img-top" alt="Project 1">
-                                <div class="card-body">
-                                    <h5 class="card-title">Coffee Website</h5>
+                    <!-- First Card -->
+                    <div class="col-md-6">
+                        <div class="card" style="height: 350px;">
+                            <div class="row g-0 h-100">
+                                <div class="col-md-4">
+                                    <img src="cv.jpg" class="img-fluid rounded-start h-100" alt="Project 1">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card Title 1</h5>
+                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    </div>
                                 </div>
                             </div>
-                        </a>
-                    </div>
-                    <div class="col-md-4">
-                        <a href="works.html">
-                            <div class="card h-100">
-                                <img src="wallpapersden.com_stargazing-hd-pixel-art_600x600.jpg" class="card-img-top" alt="Project 2">
-                                <div class="card-body">
-                                    <h5 class="card-title">Game 2</h5>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-md-4">
-                        <a href="works.html">
-                            <div class="card h-100">
-                                <img src="coach_two.jpg" class="card-img-top" alt="Project 3">
-                                <div class="card-body">
-                                    <h5 class="card-title">AI Coach</h5>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-md-4">
-                        <a href="works.html">
-                            <div class="card h-100">
-                                <img src="ww.jpg" class="card-img-top" alt="Project 4">
-                                <div class="card-body">
-                                    <h5 class="card-title">Game 3</h5>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-md-4">
-                        <a href="works.html">
-                            <div class="card h-100">
-                                <img src="game.png" class="card-img-top" alt="Project 5">
-                                <div class="card-body">
-                                    <h5 class="card-title">CV Builder</h5>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-md-4">
-                        <a href="works.html">
-                            <div class="card h-100">
-                                <img src="cv.jpg" class="card-img-top" alt="Project 6">
-                                <div class="card-body">
-                                    <h5 class="card-title">Python Certificates</h5>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="card mb-3" style="max-width: 540px;">
-                        <div class="row g-0">
-                          <div class="col-md-4">
-                            <img src="cv.jpg" class="img-fluid rounded-start" alt="...">
-                          </div>
-                          <div class="col-md-8">
-                            <div class="card-body">
-                              <h5 class="card-title">Card title</h5>
-                              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                            </div>
-                          </div>
                         </div>
-                      </div>
+                    </div>
+            
+                    <!-- Second Card -->
+                    <div class="col-md-6">
+                        <div class="card" style="height: 350px;">
+                            <div class="row g-0 h-100">
+                                <div class="col-md-4">
+                                    <img src="game.png" class="img-fluid rounded-start h-100" alt="Project 2">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card Title 2</h5>
+                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                        <p class="card-text"><small class="text-muted">Last updated 5 mins ago</small></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <!-- Third Card -->
+                    <div class="col-md-6">
+                        <div class="card" style="height: 350px;">
+                            <div class="row g-0 h-100">
+                                <div class="col-md-4">
+                                    <img src="wallpapersden.com_programming-8k-cool_600x600.jpg" class="img-fluid rounded-start h-100" alt="Project 3">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card Title 3</h5>
+                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                        <p class="card-text"><small class="text-muted">Last updated 10 mins ago</small></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <!-- Fourth Card -->
+                    <div class="col-md-6">
+                        <div class="card" style="height: 350px;">
+                            <div class="row g-0 h-100">
+                                <div class="col-md-4">
+                                    <img src="wallpapersden.com_stargazing-hd-pixel-art_600x600.jpg" class="img-fluid rounded-start h-100" alt="Project 4">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card Title 4</h5>
+                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                        <p class="card-text"><small class="text-muted">Last updated 15 mins ago</small></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <!-- Fifth Card -->
+                    <div class="col-md-6">
+                        <div class="card" style="height: 350px;">
+                            <div class="row g-0 h-100">
+                                <div class="col-md-4">
+                                    <img src="coach_two.jpg" class="img-fluid rounded-start h-100" alt="Project 5">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card Title 5</h5>
+                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                        <p class="card-text"><small class="text-muted">Last updated 20 mins ago</small></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <!-- Sixth Card -->
+                    <div class="col-md-6">
+                        <div class="card" style="height: 350px;">
+                            <div class="row g-0 h-100">
+                                <div class="col-md-4">
+                                    <img src="ww.jpg" class="img-fluid rounded-start h-100" alt="Project 6">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card Title 6</h5>
+                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                        <p class="card-text"><small class="text-muted">Last updated 30 mins ago</small></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>            
+        </section>
+
+        <div class="container-fluid bg-light py-5" id="contact-section">
+            <div class="container">
+                <div class="row">
+                    <!-- Left Section: Email and Phone -->
+                    <div class="col-md-5 d-flex flex-column justify-content-center">
+                        <h3>Contact Us</h3>
+                        <p class="mb-2"><strong>Email:</strong> <a href="mailto:info@example.com" class="text-decoration-none">info@example.com</a></p>
+                        <p><strong>Phone:</strong> <a href="tel:+1234567890" class="text-decoration-none">+1 (234) 567-890</a></p>
+                    </div>
+        
+                    <!-- Right Section: Form -->
+                    <div class="col-md-7">
+                        <form>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Your Email</label>
+                                <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Your Message</label>
+                                <textarea class="form-control" id="message" rows="4" placeholder="Write your message here" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                    </div>
                 </div>
             </div>
-        </section id="contacts" class="text-center py-5 bg-secondary text-white">
-            <div class="container-fluid">
-
-            </div>
-        <section>
-
-        </section>
+        </div>        
+        
     </main>
 
     <footer class="bg-dark text-white py-3">
         <div class="container text-center">
-            <p>&copy; 2025 My Portfolio | <a href="#home" class="text-white text-decoration-underline">Back to Top</a></p>
+            <p>&copy; 2025 My Portfolio | <a href="index.html" class="text-white text-decoration-underline">Back to Top</a></p>
         </div>
     </footer>
 
