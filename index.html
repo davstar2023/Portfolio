@@ -11,16 +11,16 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" defer></script>
 </head>
 <body>
-    <header class="bg-dark text-white py-3">
+    <header class="text-white py-3"  style="background-color: black;">
         <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-dark">
-                <a class="navbar-brand" href="#home">My Portfolio</a>
+            <nav class="navbar navbar-expand-lg" style="background-color: black;">
+                <a class="navbar-brand" href="index.html">My Portfolio</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link" href="home.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
                         <li class="nav-item"><a class="nav-link" href="projects.html">Works/Projects</a></li>
                     </ul>
@@ -30,7 +30,7 @@
     </header>
 
     <main>
-        <section id="home" class="text-center py-5" style="background-image: url('mountain.jpg'); background-size: cover; background-position: center; position: relative; height: 100vh;">
+        <section id="home" class="text-center py-5" style=background-color:black>
             <!-- Overlay -->
             <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5);"></div>
             
@@ -55,6 +55,7 @@
                         With a strong foundation in HTML, CSS, and JavaScript, I strive to bring ideas to life through code. 
                         I enjoy solving complex problems and constantly learning new technologies to improve my craft. 
                         When I'm not coding, you can find me exploring new books or experimenting with creative projects.
+                        <a class="btn btn-primary" href="#" role="button">Click for more information</a>
                     </p>
                 </div>
             </div>
@@ -125,9 +126,29 @@
                             </div>
                         </a>
                     </div>
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row g-0">
+                          <div class="col-md-4">
+                            <img src="cv.jpg" class="img-fluid rounded-start" alt="...">
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                 </div>
             </div>
-        </section>        
+        </section id="contacts" class="text-center py-5 bg-secondary text-white">
+            <div class="container-fluid">
+
+            </div>
+        <section>
+
+        </section>
     </main>
 
     <footer class="bg-dark text-white py-3">
