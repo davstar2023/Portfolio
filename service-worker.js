@@ -5,6 +5,7 @@ const urlsToCache = [
     '/about.html',
     '/background.jpg',
     '/works.html',
+    '/contact.html',
     '/manifest.json',
     '/coach_two.jpg',
     '/cv.jpg',
@@ -42,6 +43,21 @@ self.addEventListener('activate', event => {
                     }
                 })
             );
+        })
+    );
+});
+
+// Fetch event to serve cached files
+self.addEventListener('fetch', event => {
+    event.respondWith(
+        caches.match(event.request).then(response => {
+            // Serve from cache or fetch from network
+            return response || fetch(event.request);
+        }).catch(() => {
+            // Fallback mechanism for failed requests (optional)
+            if (event.request.destination === 'document') {
+                return caches.match('/index.html');
+            }
         })
     );
 });

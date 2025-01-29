@@ -33,12 +33,39 @@
     </header>
 
     <main>
+        <div class="container-fluid bg-light py-5" id="contact-section">
+            <h4 class="text-center text-decoration-underline">Contact Me</h1>
+            <div class="container">
+                <div class="row">
+                    <!-- Left Section: Email and Phone -->
+                    <div class="col-md-5 d-flex flex-column justify-content-center">
+                        <h3>Contact Us</h3>
+                        <p class="mb-2"><strong>Email:</strong> <a href="mailto:info@example.com" class="text-decoration-none">info@example.com</a></p>
+                        <p><strong>Phone:</strong> <a href="tel:+1234567890" class="text-decoration-none">+1 (234) 567-890</a></p>
+                    </div>
         
+                    <!-- Right Section: Form -->
+                    <div class="col-md-7">
+                        <form>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Your Email</label>
+                                <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Your Message</label>
+                                <textarea class="form-control" id="message" rows="4" placeholder="Write your message here" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary text-center">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>       
     </main>
 
     <footer class="bg-dark text-white py-3">
         <div class="container text-center">
-            <p>&copy; 2025 My Portfolio | <a href="works.html" class="text-white text-decoration-underline">Back to Top</a></p>
+            <p>&copy; 2025 My Portfolio | <a href="contact.html" class="text-white text-decoration-underline">Back to Top</a></p>
         </div>
     </footer>
 
